@@ -9,3 +9,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
+
+kafka:
+  server: localhost:9092
+  topics:
+    test_topic: "kafka_testing"
